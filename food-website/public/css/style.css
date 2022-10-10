@@ -55,8 +55,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   outline: none;
   border: none;
   font-family: "Roboto", sans-serif;
@@ -665,7 +664,7 @@ section {
   grid-column: 1 / 7;
   padding: 3rem;
   text-align: center;
-  background-color: #F3F171;
+  background-color:whitesmoke;
 }
 
 .order .order-content .order-form input,
@@ -731,9 +730,7 @@ section {
 }
 
 .footer .contact-info {
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
-  grid-column: 1 / 4;
+  grid-column: 2 / 3;
   padding: 1rem;
   min-height: 32rem;
 }
