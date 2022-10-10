@@ -78,13 +78,13 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: #f7ca3e;
+  background: bisque;
 }
 
 body {
   max-width: 1200px;
   margin: auto;
-  background-color: #ffffff;
+  background-color: #f3efaa9c;
   position: relative;
   overflow-x: hidden;
 }
@@ -198,20 +198,19 @@ section {
   cursor: pointer;
   display: none;
 }
-
 .home {
-  margin: 6rem 0;
+  margin: 5rem 0;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[12];
-      grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(12, 1fr);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 1rem;
+  gap: 7rem;
   position: relative;
   z-index: 0;
 }
@@ -220,7 +219,7 @@ section {
   -ms-grid-column: 1;
   -ms-grid-column-span: 6;
   grid-column: 1 / 7;
-  text-align: center;
+  text-align:center;
 }
 
 .home .home-desc h1 {
@@ -258,13 +257,13 @@ section {
   content: "";
   position: absolute;
   top: 0;
-  right: -6rem;
+  right: -10rem;
   background-color: #f7ca3e;
   border-radius: 3rem;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   height: 40rem;
-  width: 70rem;
+  width: 68rem;
   z-index: -2;
   -webkit-animation: animate 1.5s linear 1;
           animation: animate 1.5s linear 1;
@@ -650,32 +649,23 @@ section {
 }
 
 .order .order-content {
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 10;
   grid-column: 2 / 12;
-  -webkit-box-shadow: 0 0.3rem 2rem rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0.3rem 2rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.3rem 2rem rgba(0, 0, 0, 0.2);
   border-radius: 1rem;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[12];
-      grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(12, 1fr);
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 1rem;
+  align-items: center;
   gap: 0;
 }
 
 .order .order-content .order-form {
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 6;
   grid-column: 1 / 7;
-  padding: 2rem;
+  padding: 3rem;
   text-align: center;
+  background-color: #F3F171;
 }
 
 .order .order-content .order-form input,
